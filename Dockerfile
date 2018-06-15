@@ -22,6 +22,6 @@ RUN apk update && apk upgrade && apk add bash
 WORKDIR home/eth_user
 
 RUN geth init eth_common/genesis.json
-
-
-ENTRYPOINT bash
+ 
+CMD [ "/bin/bash" ]
+#ENTRYPOINT bash
