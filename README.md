@@ -23,7 +23,11 @@
   
   * The dockerfile present in the repository allows us to run a docker container with go-lang 1.10 running in the alpine linux distribution. 
   * Download the required directory into remote computer using 
-      ```git clone https://github.com/arvindsaik/Ethereum-Private-Net.git```
+  
+    ```
+    git clone https://github.com/arvindsaik/Ethereum-Private-Net.git
+    ```
+    
   * Build the docker file and push to docker hub .
     
  ### Docker Swarm Setup
