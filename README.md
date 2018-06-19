@@ -1,18 +1,10 @@
-# Modified PoW consensus
+# Ethereum-Private-Net : Setup
 
-## Testing Custom Consensus
-
-* Understand code in 'ethash' directory of 'go-ethereum'.
-
-* Make modifications to the existing PoW consensus that is running.
-
-* Setup the ethereum private network as follows.
-
-* Run the consensus algorithm on close to 100 nodes.
-
-* Many docker containers will run on each system according to the number of cores in the system.
-
-## Ethereum-Private-Net
+ ### Modified go-ethereum code
+ 
+ * Dockerfile is changed for private net setup.
+ 
+ * eth_common directory added which has the genesis file to setup blockchain.
 
  ### Install Docker
  Perform the following command to install specific docker engine.
