@@ -5,6 +5,8 @@
  * Dockerfile is changed for private net setup.
  
  * eth_common directory added which has the genesis file to setup blockchain.
+ 
+ * Make changes in the consensus if required and follow the following steps to test it in a private network.
 
  ### Install Docker
  Perform the following command to install specific docker engine.
